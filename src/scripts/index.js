@@ -1,10 +1,10 @@
 import Axios from "axios";
 
-// const URL = 'https://jsonplaceholder.typicode.com/users';
+const BASE_URL = 'https://jsonplaceholder.typicode.com/users';
 
 
 /* Ajax Project */
-const BASE_URL = 'http://localhost:3000/Contacts';
+// const BASE_URL = 'http://localhost:3000/Contacts';
 
 const tbody = document.querySelector('#tbody');
 let saveBtn = document.querySelector('#saveBtn')
